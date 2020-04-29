@@ -16,9 +16,7 @@ class Solution(object):
             else:
                 stack.append(values)
                 top = values
-        if len(stack) > 0:
-            return False
-        return True
+        return not stack
 
 
 
